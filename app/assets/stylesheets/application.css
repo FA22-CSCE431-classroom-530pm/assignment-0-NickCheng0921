@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+html {
+    height: 100vh;
+}
+
+#head {
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#body {
+    position: relative;
+    text-align: center;
+}
+
+/* for my blog type layout */
+.leftcolumn {
+    float: right;
+    width: 85%;
+    height: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-left: 1px solid black;
+}
